@@ -8,10 +8,10 @@
 	</head>
 	<body>
 		<h2>Welcome to your Profile</h2>
-		<s:label value="First Name: "/>		<s:property	value="firstName"/>		<br>
-		<s:label value="Last Name: "/>		<s:property	value="lastName"/>		<br>
-		<s:label value="Gender: "/>			<s:property	value="gender"/>		<br>
-		<s:label value="Age: "/>			<s:property	value="age"/>			<br>
-		<s:label value="Email: "/>			<s:property	value="email"/>			<br>
+		<s:label value="First Name: "/>		<s:property	value="user.firstName"/><br>
+		<s:label value="Last Name: "/>		<s:property	value="user.lastName"/>	<br>
+		<s:label value="Gender: "/>			<s:property	value="user.gender"/>	<br>
+		<s:label value="Age: "/>			<s:property	value="user.age"/>		<br>
+		<s:label value="Email: "/>			<s:property	value="user.email"/>	<br>
 	</body>
 </html>

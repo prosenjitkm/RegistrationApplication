@@ -10,12 +10,12 @@
 	<body>
 		<h2>Registration Form</h2>
 		<s:form action = "registerAction">
-			<s:textfield	name="firstName"	key="global.firstName" />
-			<s:textfield 	name="lastName" 	key="global.lastName" />
-			<s:radio		name="gender" 		key="global.gender" list="{'Male', 'Female'}"/>
-			<s:textfield	name="age" 			key="global.age" />
-			<s:textfield	name="email" 		key="global.email" />
-			<s:submit							key="global.register" />
+			<s:textfield	name="user.firstName"	key="global.firstName" />
+			<s:textfield 	name="user.lastName" 	key="global.lastName" />
+			<s:radio		name="user.gender" 		key="global.gender" list="{'Male', 'Female'}"/>
+			<s:textfield	name="user.age" 		key="global.age" />
+			<s:textfield	name="user.email" 		key="global.email" />
+			<s:submit								key="global.register" />
 		</s:form>
 		
 		<s:url var="urlEn" action="changeLocaleAction">

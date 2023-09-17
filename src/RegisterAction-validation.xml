@@ -4,25 +4,25 @@
 	
 <validators>
 
-	<field name="firstName">
+	<field name="user.firstName">
 		<field-validator type="requiredstring">
 			<message>First name is required.</message>
 		</field-validator>
 	</field>
 	
-	<field name="lastName">
+	<field name="user.lastName">
 		<field-validator type="requiredstring">
 			<message>Last name is required.</message>
 		</field-validator>
 	</field>
 	
-	<field name="gender">
+	<field name="user.gender">
 		<field-validator type="required">
 			<message>Gender is required.</message>
 		</field-validator>
 	</field>
 	
-	<field name="age">
+	<field name="user.age">
 		<field-validator type="required">
 			<message>Age is required.</message>
 		</field-validator>
@@ -33,7 +33,7 @@
 		</field-validator>
 	</field>
 
-	<field name="email">
+	<field name="user.email">
 		<field-validator type="requiredstring">
 			<message>Email is required.</message>
 		</field-validator>
